@@ -23,6 +23,6 @@ myTerminal = "urxvt"
 myWrkspace = ["1", "2", "3", "4"]
 
 myStartupHook = do
-    spawn "feh --bg-scale ~/.xmonad/wallpaper-window.jpg"
+    spawn "feh --bg-scale ~/.xmonad/wallpaper.jpg"
     spawn "ibus-daemon -r -d -x"
     spawn "compton -b"
